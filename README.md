@@ -1,19 +1,19 @@
 # assignment-12
 
 # Install storybook
-Clone the template:
-npx degit chromaui/intro-storybook-react-template taskbox
+Clone the template: <br>
+npx degit chromaui/intro-storybook-react-template taskbox <br>
 
-cd taskbox
+cd taskbox <br>
 
-Install dependencies:
-yarn
+Install dependencies: <br>
+yarn <br>
 
 # create components
-create component folder
-write .tsx documents to create components
-write .stories.tsx documents to create the content and behaviors of the components
-write .css documents to create the styles of the components
+create component folder <br>
+write .tsx documents to create components <br>
+write .stories.tsx documents to create the content and behaviors of the components <br>
+write .css documents to create the styles of the components <br>
 
 # write docker file
 # Use the official Node.js image as the base image
@@ -47,12 +47,12 @@ ENV CI=true
 build image on docker 
 
 # solve compatibility problems
-change the yarn version in package.json to 1.22.22 to match the global version
-delete current image
-rebuild image
+change the yarn version in package.json to 1.22.22 to match the global version <br>
+delete current image <br>
+rebuild image <br>
 
 # build container
-build the container with name: bao_yuwei_coding_assignment12 using the previously created image on port 8083
+build the container with name: bao_yuwei_coding_assignment12 using the previously created image on port 8083 
 
 # run container
 run container successfully on port 8083
